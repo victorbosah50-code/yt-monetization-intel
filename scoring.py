@@ -14,8 +14,9 @@ def calculate_score(title, length):
         score += 30
 
     # Monetization keywords
-    keywords = ["how", "review", "best", "tutorial", "guide"]
+    keywords = ["how", "review", "best", "tutorial", "guide", "income", "AI", "passive"]
     if any(word in title.lower() for word in keywords):
         score += 30
 
     return score
+
